@@ -10,4 +10,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("onCreate_called","onCreate_called")
     }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("onResume_Called","onResume_Called")
+    }
 }
