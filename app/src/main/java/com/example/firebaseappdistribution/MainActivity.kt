@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        Log.d("onResume_Called","onResume_Called")
+        Log.d("onResume_Called2","onResume_Called2")
     }
 }
