@@ -13,10 +13,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-        node-version: 18.16.0
-        cache: 'npm'
-    - run: npm ci
-    - run: npm test    
+        node-version: 16.4.0
     - name: build debug 
       run: ./gradlew assembleDebug
     - name: upload artifact to Firebase App Distribution
