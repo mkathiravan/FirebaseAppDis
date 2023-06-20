@@ -18,6 +18,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        Log.d("onPause_Called_23", "onPause_Called_23")
+        Log.d("onPause_Called_25", "onPause_Called_25")
     }
 }
