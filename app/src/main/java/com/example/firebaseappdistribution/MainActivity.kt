@@ -20,4 +20,8 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         Log.d("onPause_Called_25", "onPause_Called_25")
     }
+
+    override fun onStop() {
+        super.onStop()
+    }
 }
